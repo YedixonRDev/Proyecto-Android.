@@ -5,7 +5,6 @@ import org.w3c.dom.Text;
 public class Utilidades {
 
     //Constantes campos tabla usuario
-
     public static final String TABLA_USUARIO="usuario";
     public static final String CAMPO_ID="id";
     public static final String CAMPO_NOMBRE="nombre";

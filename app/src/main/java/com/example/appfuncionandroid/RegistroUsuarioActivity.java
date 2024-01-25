@@ -24,12 +24,11 @@ public class RegistroUsuarioActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registro_usuario);
 
-        // Inicializar los campos de texto
+
         campoID = findViewById(R.id.editTextId);
         campoNombre = findViewById(R.id.editTextNombre);
         campoTelefono = findViewById(R.id.editTextTelefono);
 
-        // Inicializar el botón y configurar el evento onClick
         Button btnRegistrar = findViewById(R.id.btnRegistrarUsuario);
         btnRegistrar.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         ConexionSQLiteHelper conn = new ConexionSQLiteHelper(this, "bd_usuarios", null, 1);
 
-        // Configurar el evento de clic para el botón de Registrar Usuario
+        //clic para el botón de Registrar Usuario
         Button btnRegistrarUsuario = findViewById(R.id.btnRegistrarUsuario);
         btnRegistrarUsuario.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Configurar el evento de clic para el botón de Consultar Usuario
+        // clic para el botón de Consultar Usuario
         Button btnConsultarUsuario = findViewById(R.id.btnConsultarUsuario);
         btnConsultarUsuario.setOnClickListener(new View.OnClickListener() {
             @Override
